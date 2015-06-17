@@ -1,0 +1,46 @@
+{
+  "name": "amazeui-<%= pluginName %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "main": "lib/amazeui.<%= pluginName%>.js",
+  "style": "dist/amazeui.<%= pluginName%>.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amazeui/<%= pluginName%>.git"
+  },
+  "keywords": [
+    "amazeui-plugin",
+    "amaze-ui",
+    "AMUI",
+    "<%= pluginName%>",
+    "jquery-plugin"
+  ],
+  "author": {
+    "name": "<%= authorName %>",
+    "email": "<%= authorEmail %>"
+  },
+  "bugs": {
+    "url": "https://github.com/amazeui/<%= pluginName%>/issues"
+  },
+  "homepage": "https://github.com/amazeui/<%= pluginName%>",
+  "license": "MIT",
+  "devDependencies": {
+    "amazeui-doc-util": "latest",
+    "amazeui-gulp-tasks": "0.0.2",
+    "browserify": "^10.2.4",
+    "browserify-shim": "^3.8.8",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^0.8.0",
+    "run-sequence": "^1.0.2"
+  },
+  "dependencies": {
+    "amazeui": "^2.4.0",
+    "jquery": "^2.1.4"
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery"
+  }
+}
