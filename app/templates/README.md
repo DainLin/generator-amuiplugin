@@ -1,7 +1,7 @@
 # Amaze UI <%= pluginName %>
 ---
 
-[![NPM version](https://img.shields.io/npm/v/amazeui-<%= pluginName %>.svg?style=flat-square)](https://www.npmjs.com/package/amazeui-tree)
+[![NPM version](https://img.shields.io/npm/v/amazeui-<%= pluginName %>.svg?style=flat-square)](https://www.npmjs.com/package/amazeui-<%= pluginName %>)
 [![Dependency Status](https://img.shields.io/david/amazeui/<%= pluginName %>.svg?style=flat-square)](https://david-dm.org/amazeui/<%= pluginName %>)
 [![devDependency Status](https://img.shields.io/david/dev/amazeui/<%= pluginName %>.svg?style=flat-square)](https://david-dm.org/amazeui/<%= pluginName %>#info=devDependencies)
 
@@ -17,7 +17,7 @@ Amaze UI <%= pluginName %> 插件。
   - [直接下载](https://github.com/amazeui/<%= pluginName %>/archive/master.zip)
   - 使用 NPM: `npm install amazeui-<%= pluginName %>`
 
-2. 在 Amaze UI 样式之后引入 Tree 样式（`dist` 目录下的 CSS）：
+2. 在 Amaze UI 样式之后引入 <%= pluginName %> 样式（`dist` 目录下的 CSS）：
 
   Amaze UI <%= pluginName %> 依赖 Amaze UI 样式。
 
