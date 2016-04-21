@@ -1,6 +1,6 @@
 {
   "name": "generator-amuiplugin",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Amaze UI plugin project generator.",
   "main": "app/index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/amazeui/generator-amuiplugin#readme",
   "dependencies": {
-    "chalk": "^1.0.0",
+    "chalk": "^1.1.3",
     "yeoman-generator": "^0.20.1",
     "yosay": "^1.0.4"
   }

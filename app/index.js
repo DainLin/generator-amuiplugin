@@ -51,7 +51,7 @@ var AMUIPluginGenerator = yeoman.generators.Base.extend({
 
     this.copy('editorconfig', '.editorconfig');
     this.copy('gitignore', '.gitignore');
-    this.copy('jshintrc', '.jshintrc');
+    this.copy('eslintrc', '.eslintrc');
     this.copy('npmignore', '.npmignore');
     this.copy('LICENSE', 'LICENSE');
     this.copy('gulpfile.js', 'gulpfile.js');

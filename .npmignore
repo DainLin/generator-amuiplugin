@@ -3,5 +3,5 @@ node_modules
 /.idea
 .editorconfig
 .gitignore
-.jshintrc
+.eslintrc
 .npmignore
